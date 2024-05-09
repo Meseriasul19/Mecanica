@@ -14,7 +14,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <img className="icon" src="src\assets\images\Logo.svg" alt=""></img>
+            <img className="icon" src="src\assets\Logo.svg" alt=""></img>
             <span>GForce</span>
           </NavLink>
 

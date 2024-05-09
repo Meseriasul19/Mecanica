@@ -278,7 +278,7 @@ export const Aplicatie = () => {
           <div className="info-mec">
             <h1>Mecanismul biela-manivela</h1>
             <p> = transforma miscarea de rotatie in miscare de translatie (mișcare liniară) și/sau invers (viceversa). Cel mai răspândit mecanism de acest gen se întâlnește în motoarele cu ardere internă.</p>
-            <img src="\src\assets\images\engine.png"></img>
+            <img src="\src\assets\engine.png"></img>
           </div>
         );
     }
@@ -291,15 +291,15 @@ export const Aplicatie = () => {
         <div className="submenu">
           <ul>
             <li onClick={() => handleSubMenuClick("corpuri")}>
-              <img className="icon" src="src\assets\images\corpuri.svg" alt=""></img>
+              <img className="icon" src="src\assets\corpuri.svg" alt=""></img>
               <h3>Corpuri</h3>
             </li>
             <li onClick={() => handleSubMenuClick("traiectorii")}>
-              <img className="icon" src="src\assets\images\down-arrow.svg" alt=""></img>
+              <img className="icon" src="src\assets\down-arrow.svg" alt=""></img>
               <h3>Traiectorii</h3>
             </li>
             <li onClick={() => handleSubMenuClick("viteze")}>
-              <img className="icon" src="src\assets\images\sprint.svg" alt=""></img>
+              <img className="icon" src="src\assets\sprint.svg" alt=""></img>
               <h3>viteze si acceleratii</h3>
             </li>
           </ul>
