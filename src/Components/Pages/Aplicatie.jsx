@@ -119,7 +119,7 @@ export const Aplicatie = () => {
             <h3>Miscare: PLAN-PARALELA</h3>
             <h3>Deplasare: θ<sub>2</sub>, x<sub>2</sub></h3>
             <h3>Viteza: ω<sub>2</sub>, v<sub>2</sub></h3>
-            <h3>Acceleratie: ε<sub>2<sub>, a</sub>2</sub></h3>
+            <h3>Acceleratie: ε<sub>2</sub>, a<sub>2</sub></h3>
           </div>
         </div>
         );
