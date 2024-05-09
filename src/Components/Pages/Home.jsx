@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import arrow from '../../assets/arrow-left.svg';
 
 export const Home = () => {
 
@@ -42,7 +43,7 @@ export const Home = () => {
 
           </div>
 
-          <img className="arrow" src="\src\assets\arrow-left.svg"></img>
+          <img className="arrow" src={arrow}></img>
 
         </div>
 

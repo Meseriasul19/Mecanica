@@ -2,6 +2,10 @@ import React from "react";
 import { useState } from "react";
 import Bm from "../Exercises/Biela-manivela/Bm.jsx";
 import "./Aplicatie.css";
+import corp from '../../assets/corpuri.svg';
+import traj from '../../assets/down-arrow.svg';
+import speed from '../../assets/sprint.svg';
+import engine from '../../assets/engine.png';
 
 export const Aplicatie = () => {
 
@@ -278,7 +282,7 @@ export const Aplicatie = () => {
           <div className="info-mec">
             <h1>Mecanismul biela-manivela</h1>
             <p> = transforma miscarea de rotatie in miscare de translatie (mișcare liniară) și/sau invers (viceversa). Cel mai răspândit mecanism de acest gen se întâlnește în motoarele cu ardere internă.</p>
-            <img src="src\assets\engine.png"></img>
+            <img src={engine}></img>
           </div>
         );
     }
@@ -291,15 +295,15 @@ export const Aplicatie = () => {
         <div className="submenu">
           <ul>
             <li onClick={() => handleSubMenuClick("corpuri")}>
-              <img className="icon" src="src\assets\corpuri.svg" alt=""></img>
+              <img className="icon" src={corp}alt=""></img>
               <h3>Corpuri</h3>
             </li>
             <li onClick={() => handleSubMenuClick("traiectorii")}>
-              <img className="icon" src="src\assets\down-arrow.svg" alt=""></img>
+              <img className="icon" src={traj} alt=""></img>
               <h3>Traiectorii</h3>
             </li>
             <li onClick={() => handleSubMenuClick("viteze")}>
-              <img className="icon" src="src\assets\sprint.svg" alt=""></img>
+              <img className="icon" src={speed} alt=""></img>
               <h3>viteze si acceleratii</h3>
             </li>
           </ul>
