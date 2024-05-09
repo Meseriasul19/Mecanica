@@ -1,0 +1,298 @@
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu {
+    
+    width: 30%;
+    background-color: white;
+    display: flex;
+    min-height: 89vh;
+}
+
+.submenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submenu ul {
+    margin: 100% 0;
+}
+
+.submenu li {
+    padding: 30px 0;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.submenu li:hover {
+    background-color: rgb(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.mainmenu {
+    width: 100%;
+}
+
+.corpuri {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.corpuri div {
+    width: 100%;
+    text-align: start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.corpuri h1 {
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;;
+    padding: 20px;
+}
+
+.corpuri h1:hover {
+    background-color: rgb(255, 221, 64, 0.5);
+    cursor: pointer;
+}
+
+.info-corp{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    min-height: 60vh;
+}
+
+.info-corp h2 {
+    font-weight: 600;
+}
+
+.info-corp h3{
+    padding: 10px;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    
+}
+
+
+
+.study > * {
+    border-bottom: 2px solid gray;
+}
+
+.study h3:hover{
+    background-color:  rgb(76, 109, 207, 0.7);
+    cursor: default;
+    font-weight: 600;
+}
+
+.angle {
+    display: flex;
+}
+
+.angle input{
+    flex-grow: 1;
+    border: none;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    width: 10px;
+}
+
+.angle:hover{
+    background-color:  rgb(76, 109, 207, 0.7);
+    cursor: default;
+    font-weight: 600;
+}
+
+.o{
+    position: absolute;
+    color: rgb(255, 221, 64);
+    top: 62%;
+    left: 45%;
+}
+
+.a {
+    position: absolute;
+    color: rgb(255, 221, 64);
+    top: 37%;
+    left: 53%;
+}
+
+.b{
+    position: absolute;
+    color: rgb(255, 221, 64);
+    top: 64.5%;
+    left: 71.5%;
+}
+
+.v1{
+    position: absolute;
+    color: rgb(255, 221, 64);
+    top: 63%;
+    left: 43.5%;
+}
+
+.bg-circle{
+    background-color: rgb(128, 128, 128, 0.5);
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    border:solid 2px rgb(0, 248, 0);
+    margin-left: 5px;
+}
+
+.circle:hover {
+    cursor: pointer;
+}
+
+.circle.clicked {
+    background-color: rgb(0, 248, 0);
+}
+
+.trajectory{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.A {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.repr, .rez{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+
+.bg-circleVa{
+    height: auto;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    border-right: solid 2px rgb(128, 128, 128, 0.5);
+}
+
+.circleVa {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    border:solid 2px rgb(255, 165, 0);
+    margin-left: 5px;
+}
+
+.circleVa:hover {
+    cursor: pointer;
+}
+
+.circleVa.clicked {
+    background-color: rgb(255, 165, 0);
+}
+
+.bg-circleVb{
+    height: auto;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    border-right: solid 2px rgb(128, 128, 128, 0.5);
+}
+
+.circleVb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    border:solid 2px rgb(255, 165, 0);
+    margin-left: 5px;
+}
+
+.circleVb:hover {
+    cursor: pointer;
+}
+
+.circleVb.clicked {
+    background-color: rgb(255, 165, 0);
+}
+
+.V {
+    display: flex;
+    flex-direction: row;
+}
+
+.Va, .Vb {
+    margin-left: 5px;
+}
+
+.rez {
+    margin-top: 30px;
+}
+
+.info-mec {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: justify;
+}
+
+.info-mec h1 {
+    color: orange;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.info-mec p {
+    margin: 10px;
+}
+
+.info-mec img {
+    width: 400px;
+    height: 300px;
+}
+
+.cir {
+    padding:10px;
+    text-align: justify;
+    color: orange;
+    font-weight: 700;
+}
+
+.cir-info{
+    padding:10px;
+    text-align: justify;
+    color: gray;
+    font-weight: 700;
+}

@@ -42,7 +42,7 @@ export const Home = () => {
 
           </div>
 
-          <img className="arrow" src="\assets\arrow-left.svg"></img>
+          <img className="arrow" src="\src\assets\arrow-left.svg"></img>
 
         </div>
 

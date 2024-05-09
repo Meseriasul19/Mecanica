@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from '../../assets/Logo.svg'
 import "./Navbar.css";
 //import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 //import {Logo} from "../../assets/images/Logo.svg"
 
 function NavBar() {
   const [click, setClick] = useState(false);
-
+``
   const handleClick = () => setClick(!click);
   
   return (
@@ -14,7 +15,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            <img className="icon" src="assets\Logo.svg" alt=""></img>
+            <img className="icon" src={logo} alt=""></img>
             <span>GForce</span>
           </NavLink>
 
