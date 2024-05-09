@@ -3,7 +3,7 @@ import { useState } from "react";
 import Bm from "../Exercises/Biela-manivela/Bm.jsx";
 import "./Aplicatie.css";
 
-export const Blog = () => {
+export const Aplicatie = () => {
 
   const [selectedSubSection, setSelectedSubSection] = useState(null);
   const [corpuriSectionActive, setCorpuriSectionActive] = useState(false);
